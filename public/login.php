@@ -75,7 +75,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             <h3 class="text-center mb-4">Login</h3>
             <form action="index.php?rota=login" method="post">
                 <div class="mb-3">
-                    <label for="usuario" class="form-label">Usuário</label>
+                    <label for="usuario" class="form-label" style="font-weight:">Usuário</label>
                     <input type="text" name="usuario" id="usuario" class="form-control" required>
                 </div>
                 <div class="mb-3">
